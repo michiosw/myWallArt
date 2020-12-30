@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -24,7 +27,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.1&#10;- Vertical plane detection&#10;- Custom ArFragment class&#10;- ImageView as viewRenderable" />
+    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.1&#10;- Vertical plane detection&#10;- Custom ArFragment class&#10;- ImageView as viewRenderable">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,6 +173,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Version_02&#10;-Vertican Plane Detection mit CustomAr config&#10;-ImageView als Ar Object&#10;-Nur Ar fragemnt, keine Buttons" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="AVDManager" timestamp="1609335059158">
+      <screen x="0" y="25" width="1440" height="823" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="AVDManager/0.25.1440.823@0.25.1440.823" timestamp="1609335059158" />
     <state x="221" y="96" key="AndroidCreateResourceFileDialog" timestamp="1609166063036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -173,10 +185,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609165631779" />
-    <state x="221" y="86" key="SettingsEditor" timestamp="1609334340408">
+    <state x="587" y="351" width="729" height="198" key="Github.ShareDialog" timestamp="1609334368859">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609334340408" />
+    <state x="587" y="351" width="729" height="198" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1609334368859" />
+    <state x="353" y="160" key="Github.UntrackedFilesDialog" timestamp="1609334503971">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="353" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1609334503971" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1609336242467">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609336242467" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1609336242465">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609336242465" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1609336242464">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609336242464" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1609336242466">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609336242466" />
+    <state x="221" y="86" key="SettingsEditor" timestamp="1609335547236">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609335547236" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1609328072801">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
