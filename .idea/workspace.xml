@@ -27,11 +27,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.1&#10;- Vertical plane detection&#10;- Custom ArFragment class&#10;- ImageView as viewRenderable">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/frame_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
-        <option value="resourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -63,6 +68,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_XL_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-01T16:41:21.446Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -153,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609327839179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane">
+      <created>1609345869909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609345869910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,17 +184,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version_02&#10;-Vertican Plane Detection mit CustomAr config&#10;-ImageView als Ar Object&#10;-Nur Ar fragemnt, keine Buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version_02&#10;-Vertican Plane Detection mit CustomAr config&#10;-ImageView als Ar Object&#10;-Nur Ar fragemnt, keine Buttons" />
+    <MESSAGE value="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane" />
+    <option name="LAST_COMMIT_MESSAGE" value="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="1240" height="700" key="AVDManager" timestamp="1609335059158">
-      <screen x="0" y="25" width="1440" height="823" />
+    <state x="100" y="25" width="1240" height="819" key="AVDManager" timestamp="1609935322422">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
+    <state x="100" y="82" width="1240" height="766" key="AVDManager/0.25.1440.817@0.25.1440.817" timestamp="1609519653400" />
+    <state x="100" y="25" width="1240" height="819" key="AVDManager/0.25.1440.819@0.25.1440.819" timestamp="1609935322422" />
     <state x="100" y="100" width="1240" height="700" key="AVDManager/0.25.1440.823@0.25.1440.823" timestamp="1609335059158" />
-    <state x="221" y="96" key="AndroidCreateResourceFileDialog" timestamp="1609166063036">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="249" y="127" key="AndroidCreateResourceFileDialog" timestamp="1609935072796">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="96" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1609166063036" />
+    <state x="249" y="127" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1609935072796" />
+    <state x="542" y="249" key="AndroidCreateXmlResourceDialog" timestamp="1609930327800">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="542" y="249" key="AndroidCreateXmlResourceDialog/0.0.1440.900@0.0.1440.900" timestamp="1609930327800" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1609165631779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -193,29 +215,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="353" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1609334503971" />
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1609336242467">
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1609948492734">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609336242467" />
-    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1609336242465">
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609948492734" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1609948492733">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609336242465" />
-    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1609336242464">
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609948492733" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1609948492731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609336242464" />
-    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1609336242466">
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609948492731" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1609948492733">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609336242466" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609948492733" />
     <state x="221" y="86" key="SettingsEditor" timestamp="1609335547236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609335547236" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1609328072801">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="262" y="98" key="Vcs.Push.Dialog.v2" timestamp="1609345922959">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609328072801" />
+    <state x="262" y="98" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1609345922959" />
   </component>
 </project>

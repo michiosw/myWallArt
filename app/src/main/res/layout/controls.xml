@@ -2,18 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="wrap_content"
-    android:background="@drawable/rounded_bg"
+    android:background="@drawable/frame_bg"
     android:layout_height="wrap_content"
     android:clipChildren="false"
-    android:padding="24dp"
     android:gravity="center"
     android:clipToPadding="false">
 
     <ImageView
-        android:src="@android:drawable/ic_dialog_info"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:id="@+id/picture"
+        android:background="@drawable/frame_bg"
+        android:padding="1.5mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:importantForAccessibility="no"
-        android:id="@+id/picture"/>
+        android:src="@android:drawable/ic_dialog_info"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"/>
 
 </LinearLayout>

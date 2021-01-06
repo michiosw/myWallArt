@@ -4,8 +4,11 @@
     package="com.soerenmichel.myWallArt">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+
 
     <application
         android:allowBackup="true"
@@ -27,6 +30,15 @@
 
             </intent-filter>
         </activity>
+        <provider
+            android:authorities="com.soerenmichel.myWallArt.fileprovider"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
     </application>
 
 </manifest>
