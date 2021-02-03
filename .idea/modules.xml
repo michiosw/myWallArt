@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArCore-2.iml" filepath="$PROJECT_DIR$/.idea/modules/ArCore-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArCore-2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArCore-2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myWallArt.iml" filepath="$PROJECT_DIR$/.idea/modules/myWallArt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myWallArt.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myWallArt.app.iml" />
     </modules>
   </component>
 </project>

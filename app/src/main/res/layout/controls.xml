@@ -17,6 +17,7 @@
         android:importantForAccessibility="no"
         android:src="@android:drawable/ic_dialog_info"
         android:cropToPadding="false"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
 
 </LinearLayout>

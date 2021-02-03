@@ -28,13 +28,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/frame_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/myWallArt.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/myWallArt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ArCore-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ArCore-2.app.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/chair.sfb" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/chair.sfb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_bg.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" afterDir="false" />
     </list>
@@ -76,6 +78,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -85,7 +92,7 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="ArCore-2.app" />
+      <module name="myWallArt.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -215,22 +222,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="353" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1609334503971" />
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1609948492734">
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1612388386223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609948492734" />
-    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1609948492733">
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612388386223" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1612388386222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609948492733" />
-    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1609948492731">
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612388386222" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1612388386221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609948492731" />
-    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1609948492733">
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612388386221" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1612388386222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609948492733" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612388386222" />
     <state x="221" y="86" key="SettingsEditor" timestamp="1609335547236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
