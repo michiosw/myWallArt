@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         seekBar.setOnSeekBarChangeListener(seekBarChangeListener);
 
         int progress = seekBar.getProgress();
-        textView.setText("Progress: " + progress);
+        textView.setText("Size: " + progress+"%");
 
 
         //Inflate controls.xml to assign picture_c
@@ -118,20 +118,11 @@ public class MainActivity extends AppCompatActivity {
             // updated continuously as the user slides the thumb
             sizing = progress;
             textView.setText("Size: " + progress+"%");
-        }
-
-        @Override
-        public void onStartTrackingTouch(SeekBar seekBar) {
-            // called when the user first touches the SeekBar
-        }
-
-        @Override
-        public void onStopTrackingTouch(SeekBar seekBar) {
             // called after the user finishes moving the SeekBar
             if (anchorNodeVector.size() == 0){
-                Toast.makeText(getApplicationContext(),"Please place a picture first, before trying to resize it.lol", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Please place a picture first, before trying to resize it!", Toast.LENGTH_SHORT).show();
             }
-                else {
+            else {
 
                 for (int i = 0; i < imageViewVector.size(); i++) {
                     ImageView current_imageView = imageViewVector.get(i);
@@ -145,6 +136,15 @@ public class MainActivity extends AppCompatActivity {
                     current_imageView.requestLayout();
                 }
             }
+        }
+
+        @Override
+        public void onStartTrackingTouch(SeekBar seekBar) {
+        }
+
+        @Override
+        public void onStopTrackingTouch(SeekBar seekBar) {
+
         }
     };
 
@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         imageView = view.findViewById(R.id.picture);
 
         if (picture_path == null) {
-            Toast.makeText(this, "Bro select a pic first",
+            Toast.makeText(this, "Select a picture first, to place it!",
                     Toast.LENGTH_SHORT).show();
         }
 

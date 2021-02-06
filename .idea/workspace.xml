@@ -27,18 +27,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/myWallArt.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/myWallArt.iml" afterDir="false" />
+    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.4&#10;- removed shadows&#10;- reworked layout &#10;- added Toast messages for instruction&#10;- added clear button&#10;- added slider to resize the image during runtime&#10;- small bug fixes">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/icon_transparent.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/ArCore-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ArCore-2.app.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/chair.sfb" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/chair.sfb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
@@ -174,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609345869910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v_0.0.4&#10;- removed shadows&#10;- reworked layout &#10;- added Toast messages for instruction&#10;- added clear button&#10;- added slider to resize the image during runtime&#10;- small bug fixes">
+      <created>1612390933328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612390933328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +195,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version_02&#10;-Vertican Plane Detection mit CustomAr config&#10;-ImageView als Ar Object&#10;-Nur Ar fragemnt, keine Buttons" />
     <MESSAGE value="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane" />
-    <option name="LAST_COMMIT_MESSAGE" value="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane" />
+    <MESSAGE value="v_0.0.4&#10;- removed shadows&#10;- reworked layout &#10;- added Toast messages for instruction&#10;- added clear button&#10;- added slider to resize the image during runtime&#10;- small bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="v_0.0.4&#10;- removed shadows&#10;- reworked layout &#10;- added Toast messages for instruction&#10;- added clear button&#10;- added slider to resize the image during runtime&#10;- small bug fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="25" width="1240" height="819" key="AVDManager" timestamp="1609935322422">
@@ -242,10 +246,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609335547236" />
-    <state x="262" y="98" key="Vcs.Push.Dialog.v2" timestamp="1609345922959">
+    <state x="262" y="98" key="Vcs.Push.Dialog.v2" timestamp="1612390937480">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609328072801" />
-    <state x="262" y="98" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1609345922959" />
+    <state x="262" y="98" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612390937480" />
   </component>
 </project>
