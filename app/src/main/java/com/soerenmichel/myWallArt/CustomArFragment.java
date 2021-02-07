@@ -9,6 +9,7 @@ public class CustomArFragment extends ArFragment {
     protected Config getSessionConfiguration(Session session) {
         Config config = super.getSessionConfiguration(session);
         config.setPlaneFindingMode(Config.PlaneFindingMode.VERTICAL);
+        config.setFocusMode(Config.FocusMode.AUTO);
         return config;
     }
 }

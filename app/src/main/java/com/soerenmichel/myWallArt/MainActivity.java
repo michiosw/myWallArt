@@ -21,8 +21,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.ar.core.Anchor;
+import com.google.ar.core.Config;
 import com.google.ar.core.HitResult;
 import com.google.ar.core.Plane;
+import com.google.ar.core.Session;
 import com.google.ar.sceneform.AnchorNode;
 import com.google.ar.sceneform.Node;
 import com.google.ar.sceneform.math.Quaternion;
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         //Assign objects
         arFragment = (CustomArFragment) getSupportFragmentManager().findFragmentById(R.id.ux_fragment);
