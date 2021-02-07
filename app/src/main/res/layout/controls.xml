@@ -14,10 +14,8 @@
         android:padding="1.5mm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:importantForAccessibility="no"
-        android:src="@android:drawable/ic_dialog_info"
-        android:cropToPadding="false"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"/>
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@android:drawable/ic_dialog_info"/>
 
 </LinearLayout>
