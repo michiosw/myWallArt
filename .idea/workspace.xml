@@ -24,16 +24,27 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/testing" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="- testing" />
+    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="resizing test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_4_XL_API_29]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -189,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612709317562</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="resizing test">
+      <created>1612709551719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612709551719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +221,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/test" />
+                        <option value="origin/testing" />
                       </list>
                     </value>
                   </entry>
@@ -222,7 +240,8 @@
     <MESSAGE value="v_0.0.4&#10;- removed shadows&#10;- reworked layout &#10;- added Toast messages for instruction&#10;- added clear button&#10;- added slider to resize the image during runtime&#10;- small bug fixes" />
     <MESSAGE value="v_0.0.5&#10;- fixed toast messages&#10;- added icon" />
     <MESSAGE value="- testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="- testing" />
+    <MESSAGE value="resizing test" />
+    <option name="LAST_COMMIT_MESSAGE" value="resizing test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612627989110">
@@ -256,31 +275,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="353" y="160" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1609334503971" />
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1612388386223">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1612710209816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612388386223" />
-    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1612388386222">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612710209816" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1612710209815">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612388386222" />
-    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1612388386221">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612710209815" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1612710209814">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612388386221" />
-    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1612388386222">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612710209814" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1612710209815">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612388386222" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612710209815" />
     <state x="221" y="86" key="SettingsEditor" timestamp="1609335547236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609335547236" />
-    <state x="262" y="114" key="Vcs.Push.Dialog.v2" timestamp="1612628190773">
-      <screen x="0" y="25" width="1440" height="817" />
+    <state x="262" y="98" key="Vcs.Push.Dialog.v2" timestamp="1612709572278">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609328072801" />
-    <state x="262" y="98" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612390937480" />
+    <state x="262" y="98" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612709572278" />
     <state x="262" y="114" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1612628190773" />
   </component>
 </project>

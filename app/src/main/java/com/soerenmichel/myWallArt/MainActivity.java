@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
 
                     Anchor anchor = hitresult.createAnchor();
                     placeObject(arFragment, anchor);
-                    resizeImage(50);
                 }
         );
 
@@ -182,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageView.setImageURI(picture_path);
         imageViewVector.add(imageView);
-
+        resizeImage(50);
     }
 
     //Override onActivityResult the save incoming data
@@ -250,22 +249,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void resizeImage(int imgSize){
-        // called after the user finishes moving the SeekBar
         if (anchorNodeVector.size() == 0){
             Toast.makeText(getApplicationContext(),"Please place a picture first, before trying to resize it!", Toast.LENGTH_LONG).show();
         }
         else {
 
             for (int i = 0; i < imageViewVector.size(); i++) {
-                ImageView current_imageView = imageViewVector.get(i);
-                int width = current_imageView.getDrawable().getIntrinsicWidth();
-                int height = current_imageView.getDrawable().getIntrinsicHeight();
+                int height = imageViewVector.get(i).getDrawable().getIntrinsicHeight();
+                int width = imageViewVector.get(i).getDrawable().getIntrinsicWidth();
                 double value = ((double) imgSize) /100;
                 height = (int) (height * value);
                 width = (int) (width * value);
-                current_imageView.getLayoutParams().height = height;
-                current_imageView.getLayoutParams().width = width;
-                current_imageView.requestLayout();
+                imageViewVector.get(i).getLayoutParams().width = width;
+                imageViewVector.get(i).getLayoutParams().height = height;
+                imageViewVector.get(i).requestLayout();
             }
         }
 
