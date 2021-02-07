@@ -27,13 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="v_0.0.5&#10;- fixed toast messages&#10;- added icon">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/soerenmichel/myWallArt/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/controls.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dbeabe0e-ed3e-4b69-9271-7847d037191c" name="Default Changelist" comment="- testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +49,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mHxk4ecTkWdNQ6As21JjLISvKI" />
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612628188883</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- testing">
+      <created>1612709317562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612709317562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +197,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -203,7 +221,8 @@
     <MESSAGE value="v_0.0.2&#10;- changed name to myWallArt&#10;- fixed random rotating ViewRenderable &#10;- added tilt, allowing the view to lay flat on the vertical plane" />
     <MESSAGE value="v_0.0.4&#10;- removed shadows&#10;- reworked layout &#10;- added Toast messages for instruction&#10;- added clear button&#10;- added slider to resize the image during runtime&#10;- small bug fixes" />
     <MESSAGE value="v_0.0.5&#10;- fixed toast messages&#10;- added icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="v_0.0.5&#10;- fixed toast messages&#10;- added icon" />
+    <MESSAGE value="- testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="- testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612627989110">
